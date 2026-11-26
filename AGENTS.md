@@ -6,4 +6,4 @@ Enable the repository's pre-push hook in each clone with `git config --local cor
 
 ## CLI releases
 
-Use the stable CLI version from `magicmtn/cli/Cargo.toml` and the promoted release manifest. Point the formula at `magicmtn-cli-993499103295` and verify the artifact checksum before publishing. Preserve `version_scheme 1` on future releases so Homebrew upgrades correctly from the previous date-based versions to Semantic Versioning.
+Use the stable CLI version from `magicmtn/cli/Cargo.toml` and the promoted release manifest. Point the formula at `magicmtn-cli-993499103295` and verify the artifact checksum before publishing. Preserve `version_scheme 2` on future releases so Homebrew upgrades correctly across the reset to the 1.0.0 release baseline.

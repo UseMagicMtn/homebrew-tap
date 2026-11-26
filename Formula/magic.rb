@@ -2,10 +2,10 @@
 class Magic < Formula
   desc "Command-line client for MagicMtn"
   homepage "https://magicmtn.ai"
-  url "https://magicmtn-cli-993499103295.s3.us-east-2.amazonaws.com/releases/3.1.1/magic-darwin-arm64", using: :nounzip
-  version "3.1.1"
-  version_scheme 1
-  sha256 "7cca1236e45267a524f233308b02f55245df6096d3757044dfa980e54a4228d5"
+  url "https://magicmtn-cli-993499103295.s3.us-east-2.amazonaws.com/releases/1.0.0/magic-darwin-arm64", using: :nounzip
+  version "1.0.0"
+  version_scheme 2
+  sha256 "a2001afdfb97d16eab7c2975fb8ffd3e735dcd20500f53e5f9fbcfc33a8301a1"
 
   depends_on :macos
   depends_on arch: :arm64
